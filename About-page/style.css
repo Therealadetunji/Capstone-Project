@@ -183,6 +183,7 @@ body {
   max-width: 400px;
   max-height: 300px;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .desktop-words {
