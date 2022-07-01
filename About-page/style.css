@@ -50,6 +50,7 @@ body {
   top: 35px;
   text-align: center;
   transition: all 0.5s;
+  display: none;
 }
 
 .mobile-menu li {
@@ -57,6 +58,12 @@ body {
   line-height: 30px;
   margin: 50px 0;
   transition: all 0.5s;
+}
+
+.contact-inquiry a {
+  font-family: 'cocogoose', sans-serif;
+  color: #272a31;
+  font-size: 8px;
 }
 
 .mobile-menu li a {
@@ -74,10 +81,6 @@ body {
 
 .closing {
   color: white;
-}
-
-.mobile-menu {
-  display: none;
 }
 
 .mobile-menu.mike {
@@ -134,12 +137,6 @@ body {
   text-align: center;
   font-size: 12px;
   font-family: 'lato', sans-serif;
-}
-
-.contact-inquiry a {
-  font-family: 'cocogoose', sans-serif;
-  color: #272a31;
-  font-size: 8px;
 }
 
 .about-logo {
