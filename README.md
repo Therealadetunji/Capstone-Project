@@ -2,7 +2,7 @@
 
 # Project Name
 
-Capstone Project.
+CAPSTONE PROJECT
 
 > Description the project.
 
