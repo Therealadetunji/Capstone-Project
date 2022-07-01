@@ -29,10 +29,10 @@ const data = [
 const projectselection = document.querySelector('.featured-speakers');
 data.forEach((element) => {
   console.log('element');
-  const allCard = `<div class="featured-image-desktop">
-  <div class="host-desktop">
+  const allCard = `<div class="featured-image">
+  <div class="host">
      <div><img src="${element.featuredimage}" alt="Viera Picture"></div>
-     <div class="details">${element.role}<br>${element.currentrole}</br><br>${element.name}</br></div>
+     <div class="details">${element.role}<br>${element.currentrole}</br><br class="name">${element.name}</br></div>
   </div>
 </div>
 `;
