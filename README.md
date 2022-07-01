@@ -2,71 +2,54 @@
 
 # Project Name
 
+CAPSTONE PROJECT
+
 > Description the project.
 
+    A capstone project to mark completion of Html/Css module at @microverse. It is a conference website that brings the biggest sportsmen and women to discuss about the evolution of football tactics and the future of football tactics.
+    Hosted by Arsenal Legend Patrick Viera in 2022.
 
 ## Built With
 
 - Major languages
-- Frameworks
-- Technologies used
+  HTML
+  css
+  Javascript
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
-
+(https://therealadetunji.github.io/Capstone-Project/)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+html/css/Javascript/github-workflow knowledge
+
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
+Set up and configure git on your system.
 
 ### Deployment
 
-
+https://therealadetunji.github.io/Capstone-Project/
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@therealadetunji](
+- Twitter: [@madetunji1376](https://twitter.com/madetunji1376)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Therealadetunji/Capstone-Project/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
