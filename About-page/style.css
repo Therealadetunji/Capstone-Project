@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.mobile-navbar {
+  width: 100%;
+  background-color: #272a31;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.bars {
+  padding-left: 10px;
+}
+
+.bar {
+  display: flex;
+  width: 22px;
+  height: 4px;
+  margin: 6px auto;
+  background-color: whitesmoke;
+}
+
+.mobile-menu {
+  width: 100%;
+  position: fixed;
+  list-style-type: none;
+  background-color: #272a31;
+  height: 100%;
+  top: 35px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.mobile-menu li {
+  opacity: 1;
+  line-height: 30px;
+  margin: 50px 0;
+  transition: all 0.5s;
+}
+
+.mobile-menu li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.mobile-menu li a.active,
+.mobile-menu li a:hover {
+  color: #ec5242;
+  transition: 0.1ms;
+}
+
+.closing {
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.mobile-menu.mike {
+  display: block;
+}
+
+.navbar-for-desktop-view {
+  display: none;
+}
+
+.opening-greeting {
+  justify-content: center;
+  display: flex;
+  color: #ec5242;
+  padding-top: 10%;
+}
+
+.name-of-conference {
+  color: #ec5242;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 700;
+}
+
+.name-of-conference-desktop {
+  display: none;
+}
+
+.intro-comment-container-desktop {
+  display: none;
+}
+
+.intro-comment-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10% 2% 7% 2%;
+}
+
+.intro-comment-container h2 {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 15px;
+  background-color: hwb(0 100% 0%);
+  font-family: 'Lato', sans-serif;
+  line-height: 20px;
+  color: #272a31;
+}
+
+.contact-inquiry {
+  line-height: 25px;
+}
+
+.contact-inquiry > h3 {
+  text-align: center;
+  font-size: 12px;
+  font-family: 'lato', sans-serif;
+}
+
+.contact-inquiry a {
+  font-family: 'cocogoose', sans-serif;
+  color: #272a31;
+  font-size: 8px;
+}
+
+.about-logo {
+  display: grid;
+  grid-template-columns: auto;
+  background-color: white;
+}
+
+.desktop {
+  display: none;
+}
+
+.about-logo h2 {
+  text-align: center;
+  padding-top: 60px;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+}
+
+.line-parent {
+  margin: auto;
+  padding-top: 30px;
+}
+
+.line {
+  border-color: #ec5242;
+  width: 2rem;
+}
+
+.about-logo h3 {
+  text-align: center;
+  padding: 40px 4px 50px 4px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 10%;
+  font-size: 13px;
+}
+
+.logo {
+  /* padding: 10% 2% 7% 2%; */
+  margin: auto;
+}
+
+.logo img {
+  max-width: 400px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.desktop-words {
+  display: none;
+}
+
+.desktop-words2 {
+  display: none;
+}
+
+.past-forum-pictures {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10% 2% 0 2%;
+  background-color: white;
+}
+
+.previous-photos > h2 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+
+.previous-photos > h3 {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 10%;
+  font-size: 13px;
+  padding: 8% 4% 7% 4%;
+}
+
+.photographs {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+}
+
+.photo {
+  margin: auto;
+}
+
+.photographs img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.photographs-photo-desktop {
+  display: none;
+}
+
+.photograph .second-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sponsoring-partners {
+  background-color: #272a31;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 10% 0 10%;
+}
+
+.english-sponsor {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 25px 0;
+}
+
+.sponsor-title {
+  font-family: 'lato', sans-serif;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.sponsor1,
+.sponsor3 {
+  color: #d3d3d3;
+}
+
+.sponsor2 {
+  color: #d3d3d3c5;
+}
+
+.line-second {
+  display: flex;
+  margin: auto;
+  padding-top: 1px;
+  justify-content: center;
+}
+
+.line2 {
+  border-color: #ec5242;
+  width: 2rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10% 20px 10%;
+  background-color: white;
+}
+
+.football-organisation {
+  font-family: 'cocogoose', sans-serif;
+  color: #272a31;
+}
+
+.The-Conference {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+}
+
+.footer-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navbar-for-desktop-view {
+    width: 100%;
+    background: white;
+    height: 80px;
+    display: block;
+  }
+
+  .navbar-for-desktop-view .desktop-navbar {
+    max-height: 1200px;
+    padding: 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    gap: 350px;
+  }
+
+  nav {
+    display: flex;
+  }
+
+  nav ul {
+    display: flex;
+    padding: 0 10px;
+  }
+
+  nav ul li {
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: #272a31;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+
+  .opening-greeting {
+    display: none;
+  }
+
+  .name-of-conference {
+    display: none;
+  }
+
+  .name-of-conference-desktop {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: #ec5242;
+    font-weight: bolder;
+  }
+
+  .intro-comment-container {
+    display: none;
+  }
+
+  .intro-comment-container-desktop {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0 10% 7% 10%;
+    max-height: -900px;
+  }
+
+  .intro-comment-container-desktop h2 {
+    padding: 10px 50px 0 50px;
+    font-size: 12px;
+    background-color: hwb(0 100% 0%);
+    font-family: 'Lato', sans-serif;
+    line-height: 20px;
+    color: #272a31;
+    display: flex;
+    text-align: center;
+  }
+
+  .contact-inquiry {
+    padding-bottom: 80px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
+
+  .mobile-words {
+    display: none;
+  }
+
+  .mobile-words2 {
+    display: none;
+  }
+
+  .desktop-words {
+    display: block;
+    padding: 0;
+  }
+
+  .desktop-words2 {
+    display: block;
+    padding-bottom: 0;
+  }
+
+  .photograph img {
+    display: none;
+  }
+
+  .photographs-photo-desktop {
+    display: flex;
+    padding-left: 30px;
+    padding-top: 0;
+  }
+
+  .photograph-desktop img {
+    display: flex;
+    max-width: 100%;
+    padding: 0 50px 100px 50px;
+    margin-top: 100px;
+    gap: 0;
+  }
+
+  .sponsoring-partners {
+    display: none;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .footer-desktop {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20% 20px 20%;
+    color: white;
+    background: #272a31;
+  }
+
+  .The-Conference {
+    color: white;
+  }
+}
