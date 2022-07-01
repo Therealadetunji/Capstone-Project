@@ -53,6 +53,7 @@ body {
   top: 35px;
   text-align: center;
   transition: all 0.5s;
+  display: none;
 }
 
 .mobile-menu li {
@@ -75,17 +76,8 @@ body {
   transition: 0.1ms;
 }
 
-/* .navbar {
-  background: #272a31;
-  height: 100vh;
-} */
-
 .closing {
   color: white;
-}
-
-.mobile-menu {
-  display: none;
 }
 
 .mobile-menu.mike {
@@ -657,9 +649,5 @@ body {
 
   .head-sponsor {
     font-family: 'cocogoose', sans-serif;
-  }
-
-  .host img {
-    width: 30%;
   }
 }
