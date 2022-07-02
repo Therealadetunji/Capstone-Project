@@ -172,6 +172,12 @@ body {
   color: white;
 }
 
+.speakers h3 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 .program-items .program-item h3 {
   color: #ec5242;
 }
@@ -196,16 +202,6 @@ body {
   border-style: none;
   cursor: pointer;
   font-size: 20px;
-}
-
-.featured-speakers {
-  background-color: white;
-}
-
-.speakers h3 {
-  display: flex;
-  justify-content: center;
-  padding: 30px;
 }
 
 .line1-desktop {
@@ -242,7 +238,6 @@ body {
 .details {
   padding: 0 10px 0 40px;
   display: flex;
-  /* font-size: 10px; */
   color: #ec5242;
 }
 
