@@ -238,7 +238,10 @@ body {
 .details {
   padding: 0 10px 0 40px;
   display: flex;
-  color: #ec5242;
+}
+
+.for-mobile {
+  display: none;
 }
 
 .more-info {
@@ -365,6 +368,7 @@ body {
     flex-direction: column;
     margin: 0.2%;
     padding-top: 2%;
+    padding-bottom: 3%;
   }
 
   .program-items {
@@ -432,13 +436,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 66%;
-    margin-left: 20%;
-    margin-right: 10%;
+    width: 100%;
+    margin-left: 9%;
+    margin-right: 30%;
     align-items: center;
     margin-bottom: 0;
-    padding-right: 26px;
-    padding-left: 40px;
+    padding-right: 200px;
   }
 
   .image {
@@ -528,5 +531,9 @@ body {
 
   .head-sponsor {
     font-family: 'cocogoose', sans-serif;
+  }
+
+  .for-mobile {
+    display: block;
   }
 }
