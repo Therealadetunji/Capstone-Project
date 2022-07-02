@@ -26,13 +26,13 @@ const data = [
   },
 ];
 
-const projectselection = document.querySelector('.featured-speakers');
+const projectselection = document.querySelector('.container');
 data.forEach((element) => {
   console.log('element');
-  const allCard = `<div class="featured-image">
-  <div class="host">
-     <div><img src="${element.featuredimage}" alt="Viera Picture"></div>
-     <div class="details">${element.role}<br>${element.currentrole}</br><br class="name">${element.name}</br></div>
+  const allCard = `<div class="image">
+  <img src="${element.featuredimage}" alt="Viera Picture">
+  <div class="details">
+    <p class="speaker-desc"><br>${element.currentrole}</br>${element.name}</p>
   </div>
 </div>
 `;
