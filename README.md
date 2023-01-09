@@ -38,9 +38,9 @@ https://therealadetunji.github.io/Capstone-Project/
 
 ## Authors
 
-👤 **Author1**
+👤 **Michael Adetunji**
 
-- GitHub: [@therealadetunji](
+- GitHub: [@therealadetunji](](https://github.com/Therealadetunji/)
 - Twitter: [@madetunji1376](https://twitter.com/madetunji1376)
 
 ## 🤝 Contributing
