@@ -11,7 +11,7 @@ CAPSTONE PROJECT
 
 ## Built With
 
-- Major languages
+> Major languages
   HTML
   css
   Javascript
