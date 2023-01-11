@@ -11,10 +11,10 @@ CAPSTONE PROJECT
 
 ## Built With
 
-> Major languages
-  HTML
-  css
-  Javascript
+> 
+-   HTML
+-   css
+-   Javascript
 
 ## Live Demo (if available)
 
