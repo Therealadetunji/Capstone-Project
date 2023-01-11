@@ -1,8 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
-CAPSTONE PROJECT
+# CAPSTONE PROJECT
 
 > Description the project.
 
