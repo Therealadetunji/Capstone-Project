@@ -4,15 +4,14 @@
 
 > Description the project.
 
-    A capstone project to mark completion of Html/Css module at @microverse. It is a conference website that brings the biggest sportsmen and women to discuss about the evolution of football tactics and the future of football tactics.
-    Hosted by Arsenal Legend Patrick Viera in 2022.
+   It is a conference website that brings the biggest sportsmen and women to discuss about the evolution of football tactics and the future of football tactics, built  with html and css.
 
 ## Built With
 
 > 
 -   HTML
 -   css
--   Javascript
+
 
 ## Live Demo (if available)
 
